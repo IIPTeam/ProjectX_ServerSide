@@ -1,0 +1,7 @@
+创建数据库
+create database oa_database default character set utf8;
+
+use oa_database;
+
+执行sql脚本  cs.sql
+source sql脚本路径  C:/Users/Administrator/Desktop/cs.sql
