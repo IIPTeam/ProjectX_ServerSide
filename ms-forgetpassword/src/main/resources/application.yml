@@ -1,0 +1,9 @@
+server:
+  port: 8083
+  context-path: /fgtPaswrd
+
+vcode:
+  size: 6
+  source: 23456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  
+  
