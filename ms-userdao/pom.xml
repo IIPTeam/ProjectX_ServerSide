@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hsbc.group.iip.x</groupId>
-	<artifactId>microservice-common</artifactId>
+	<artifactId>microservice-userdao</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ms-common</name>
-	<description>common model for x</description>
+	<name>ms-userdao</name>
+	<description>user dao model for x</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -34,6 +34,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+				<groupId>com.hsbc.group.iip.x</groupId>
+				<artifactId>microservice-common</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

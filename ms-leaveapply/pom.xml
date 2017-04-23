@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hsbc.group.iip.x</groupId>
-	<artifactId>microservice-common</artifactId>
+	<artifactId>microservice-leaveapply</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ms-common</name>
-	<description>common model for x</description>
+	<name>ms-leaveapply</name>
+	<description>leave apply model for x</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -35,6 +35,31 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.hsbc.group.iip.x</groupId>
+			<artifactId>microservice-projectdao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.hsbc.group.iip.x</groupId>
+			<artifactId>microservice-leavedao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.hsbc.group.iip.x</groupId>
+			<artifactId>microservice-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.hsbc.group.iip.x</groupId>
+			<artifactId>microservice-userdao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

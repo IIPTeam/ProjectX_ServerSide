@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hsbc.group.iip.x</groupId>
-	<artifactId>microservice-common</artifactId>
+	<artifactId>microservice-util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ms-common</name>
-	<description>common model for x</description>
+	<name>ms-util</name>
+	<description>util model for x</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
+		<version>1.5.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
